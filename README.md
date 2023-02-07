@@ -1,9 +1,5 @@
-# Team satisfaction discord evaluator
-This is a bot that was conceived in order to automate the evaluation of a Team in a group project. 
-It evaluates a Team's : 
-- Motivation
-- Productivity
-- Workload
-- Work environnement
+# For virtualenv to install all files in the requirements.txt file.
 
-
+* cd to the directory where requirements.txt is located
+* activate your virtualenv
+* run: pip install -r requirements.txt in your shell
