@@ -187,7 +187,7 @@ async def on_reaction_add(reaction,user):
     global validation_chef
 
     if(poll_actif):
-        if(reaction.emoji == emoji_valide and reaction.message.id == message_validation.id and ((user.id == 378958162331435010 and validation_chef) or not(validation_chef))):
+        if(reaction.emoji == emoji_valide and reaction.message.id == message_validation.id and ((user.id == '''Project-manager-id''' and validation_chef) or not(validation_chef))):
             poll_actif = False
             await remplir_fichier()
     return
