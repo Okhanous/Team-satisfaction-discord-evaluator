@@ -25,7 +25,7 @@ emoji_valide = "✅"
 week_offset = 4
 
 
-message_categorie = ["motivation", "charge de travail", "ambiance", "productivite"]
+message_categorie = ["motivation", "Work load", "Work environment", "productivity"]
 emojis = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣","🔟"]
 
 pic_discord_accounts = {'''Team-member1-Id''':"Team-member1", '''Team-member2-Id''':"Team-member2",
