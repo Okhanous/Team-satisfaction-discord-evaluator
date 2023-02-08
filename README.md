@@ -12,7 +12,14 @@ For each member we can generate a graphical representation of the evolution of e
 
 We can also generate a summary (one graph) of the whole team's performance which is simply the mean of the values entered each week for each criteria.
 
-## Used Libraries
+You should provide the bot with the discord id of the members and of the channel. To get the Discord ID of a channel/User, you need to enable the Developer Mode in Discord. Here's how:
+
+- Open Discord and navigate to the "User Settings" (the gear icon in the bottom left corner of the screen).
+- Scroll down to the "Appearance" section and toggle the switch for "Developer Mode".
+- With Developer Mode enabled, right-click on the channel/User you want to get the ID for and select "Copy ID". This will copy the channel's Discord ID to your clipboard.
+
+
+## Used Libraries and API's :
 
 
 
