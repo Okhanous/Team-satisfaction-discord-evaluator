@@ -1,7 +1,7 @@
 {"0": {"Team-member1": {"motivation": 8, "charge de travail": 6, "ambiance": 9, "productivite": 7}, 
        "Team-member2": {"motivation": 8, "charge de travail": 6, "ambiance": 10, "productivite": 8}
       },
- "1": {"javier": {"motivation": 4, "charge de travail": 2, "ambiance": 8, "productivite": 8},
-       "Alexandre": {"motivation": 8, "charge de travail": 6, "ambiance": 9, "productivite": 8}
+ "1": {"Team-member1": {"motivation": 4, "charge de travail": 2, "ambiance": 8, "productivite": 8},
+       "Team-member2": {"motivation": 8, "charge de travail": 6, "ambiance": 9, "productivite": 8}
       }
 }
