@@ -22,6 +22,10 @@ You should provide the bot with the discord id of the members and of the channel
 ## Used Libraries and API's :
 
 
+## To do : 
+This is a first version of my fully functional bot. It requires some updates primarily for :
+-  An automatic addition of Team-members Ids to the script. Currently it should be provided manually to the bot.py script. Check commented elements in code
+-  An automatic addition of the channel's Id to the script. Currently it should be provided manually to the bot.py script. Check commented elements in code
 
 ## For virtualenv to install all files in the requirements.txt file.
 
