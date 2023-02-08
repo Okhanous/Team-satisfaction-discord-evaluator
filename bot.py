@@ -28,10 +28,10 @@ week_offset = 4
 message_categorie = ["motivation", "charge de travail", "ambiance", "productivite"]
 emojis = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣","🔟"]
 
-pic_discord_accounts = {361154202296385547:"javier", 688806471219019873:"Alexandre",
- 395366301809508363:"Apostolos", 670980724756840448:"Omar", 378958162331435010:"Louis", 456898013542219786:"Yohann", 816825207717232671:"Pierre", 359768695150739467:"Juan"}
-pic_discord_accounts_debug = {"Omar":670980724756840448}
-pic_bot_id = 933736643393904660
+pic_discord_accounts = {'''Team-member1-Id''':"Team-member1", '''Team-member2-Id''':"Team-member2",
+ '''Team-member3-Id''':"Team-member3", '''discord-moderator-Id''':"discord-moderator"}
+pic_discord_accounts_debug = {"discord-moderator":'''discord-moderator-Id'''}
+pic_bot_id = ''' Bot ID '''
 
 messages_in_discord = []
 message_validation = ""
@@ -52,13 +52,13 @@ async def on_ready():
     global channel
 
     await bot.wait_until_ready()
-    channel = bot.get_channel(id=954372637516242976)
+    channel = bot.get_channel(id='''EnterTheChannelId''')
 
-@bot.command(name = 'Chef-Pic')
+@bot.command(name = 'Project Manager')
 async def nine_nine(ctx):
     await ctx.send("Louis aka Michael Scott !!")
 
-@bot.command(name = 'Chef-Adjoint')
+@bot.command(name = 'Project helper')
 async def nine_nine(ctx):
     await ctx.send("Que du bangerrr")
 
@@ -66,15 +66,15 @@ async def nine_nine(ctx):
 async def nine_nine(ctx):
     await ctx.send("The one and only Apostolos")
 
-@bot.command(name = 'Responsable-Réseau')
+@bot.command(name = 'Responsable-Network')
 async def nine_nine(ctx):
     await ctx.send("mr.robot :')")
 
-@bot.command(name = 'Responsable-Qualité')
+@bot.command(name = 'Responsable-Quality')
 async def nine_nine(ctx):
     await ctx.send("Second poteau Yohaannnnn  ")
 
-@bot.command(name = 'Responsable-Technique')
+@bot.command(name = 'Responsable-Tech')
 async def nine_nine(ctx):
     await ctx.send("hoooooyahhh ")
 
@@ -302,5 +302,3 @@ async def chart(ctx):
 
 
 bot.run(TOKEN)
-
-
