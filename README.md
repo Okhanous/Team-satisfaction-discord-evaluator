@@ -10,7 +10,7 @@ For each member we can generate a graphical representation of the evolution of e
  - Productivity variation in respect of weeks
  - Work environment variation in respect of weeks
 
-We can also generate a summary one graph of the whole team's performance which is simply the mean of the values entered each week for each criteria.
+We can also generate a summary (one graph) of the whole team's performance which is simply the mean of the values entered each week for each criteria.
 
 ## Used Libraries
 
